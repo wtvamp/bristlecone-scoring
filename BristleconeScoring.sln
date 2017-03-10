@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1368A7DF-783B-47E7-BCF6-9F6C1424F5BD}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bristlecone.DataAccessLayer", "src\Bristlecone.DataAccessLayer\Bristlecone.DataAccessLayer.xproj", "{1BA90034-8E26-4C0C-8FEF-2655FB8F1298}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bristlecone.BizLogicLayer", "src\Bristlecone.BizLogicLayer\Bristlecone.BizLogicLayer.xproj", "{7590196B-D31A-4D09-A85A-4E142C014EB0}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bristlecone.ViewModels", "src\Bristlecone.ViewModels\Bristlecone.ViewModels.xproj", "{BE2874CC-377C-4815-95B5-D86848F2BFBD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bristlecone.ServiceLayer", "src\Bristlecone.ServiceLayer\Bristlecone.ServiceLayer.xproj", "{9DC4517D-44C2-4102-A4CE-B7A5833F4982}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Bristlecone.API.Private", "src\Bristlecone.API.Private\Bristlecone.API.Private.xproj", "{06ADBEF2-8C8E-41C4-81C6-506314499E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BA90034-8E26-4C0C-8FEF-2655FB8F1298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA90034-8E26-4C0C-8FEF-2655FB8F1298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA90034-8E26-4C0C-8FEF-2655FB8F1298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA90034-8E26-4C0C-8FEF-2655FB8F1298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7590196B-D31A-4D09-A85A-4E142C014EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7590196B-D31A-4D09-A85A-4E142C014EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7590196B-D31A-4D09-A85A-4E142C014EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7590196B-D31A-4D09-A85A-4E142C014EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2874CC-377C-4815-95B5-D86848F2BFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2874CC-377C-4815-95B5-D86848F2BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2874CC-377C-4815-95B5-D86848F2BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2874CC-377C-4815-95B5-D86848F2BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC4517D-44C2-4102-A4CE-B7A5833F4982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC4517D-44C2-4102-A4CE-B7A5833F4982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC4517D-44C2-4102-A4CE-B7A5833F4982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC4517D-44C2-4102-A4CE-B7A5833F4982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06ADBEF2-8C8E-41C4-81C6-506314499E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ADBEF2-8C8E-41C4-81C6-506314499E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ADBEF2-8C8E-41C4-81C6-506314499E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06ADBEF2-8C8E-41C4-81C6-506314499E50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1BA90034-8E26-4C0C-8FEF-2655FB8F1298} = {96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}
+		{7590196B-D31A-4D09-A85A-4E142C014EB0} = {96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}
+		{BE2874CC-377C-4815-95B5-D86848F2BFBD} = {96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}
+		{9DC4517D-44C2-4102-A4CE-B7A5833F4982} = {96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}
+		{06ADBEF2-8C8E-41C4-81C6-506314499E50} = {96DD292F-6F71-4FD3-B52F-EDFB14F0E7BF}
+	EndGlobalSection
+EndGlobal

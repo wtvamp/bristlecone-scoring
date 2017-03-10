@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper": "5.2.0",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.2.0",
+    "Bristlecone.BizLogicLayer": "1.0.0-0",
+    "Bristlecone.DataAccessLayer": "1.0.0-0",
+    "Bristlecone.ViewModels": "1.0.0-*",
+    "NETStandard.Library": "1.6.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-0",
+
+  "dependencies": {
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "NETStandard.Library": "1.6.1",
+    "RavenDB.Client": "3.5.3-patch-35187"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
